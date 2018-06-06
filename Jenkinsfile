@@ -3,8 +3,8 @@
 // curseID: "The ID of your project will be in the URL when you go to its overview page."
 // gameVersions: Comma delimited string of versions. The version string MUST exist on Curse.
 configurablePipeline {
-	projectName = "KSPMod"
-	curseID = "KSPMod"
+	projectName = "WaterLogged"
+	curseID = "WaterLogged"
 	gameVersions = "1.4.0,1.4.1,1.4.2,1.4.3"
 	buildEnabled = true
 	packageEnabled = true
