@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Waterlogged
 {
@@ -9,17 +7,17 @@ namespace Waterlogged
     {
         public static Dictionary<Vessel, VesselWaterLogged> VesselModules;
 
-        public event Action<bool> OnColorizerEnabledChanged;
+        public event Action<bool> OnWaterLoggedEnabledChanged;
 
-        private bool _colorizerEnabled;
-        public bool ColorizerEnabled
+        private bool _waterLoggedEnabled;
+        public bool WaterLoggedEnabled
         {
-            get { return _colorizerEnabled; }
+            get { return _waterLoggedEnabled; }
             set
             {
-                _colorizerEnabled = value;
+                _waterLoggedEnabled = value;
 
-                OnColorizerEnabledChanged?.Invoke(value);
+                OnWaterLoggedEnabledChanged?.Invoke(value);
             }
         }
 
@@ -41,7 +39,7 @@ namespace Waterlogged
 
         public void ToggleWaterColorizer(bool value)
         {
-            ColorizerEnabled = value;
+            WaterLoggedEnabled = value;
         }
     }
 }

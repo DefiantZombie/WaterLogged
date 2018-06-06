@@ -1,10 +1,7 @@
 ﻿#if DEBUG
 #define ENABLE_PROFILER
 #endif
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 #if DEBUG
 using UnityEngine.Profiling;
@@ -22,16 +19,16 @@ namespace Waterlogged
 
         private Gradient _gradient;
 
-        [KSPField(guiName = "#SSC_BO_000001", advancedTweakable = true,
+        [KSPField(guiName = "#SSC_WaterLogged_000001", advancedTweakable = true,
             guiActive = true, guiActiveEditor = false, isPersistant = false)]
         [UI_Toggle(affectSymCounterparts = UI_Scene.None, scene = UI_Scene.Flight)]
         public bool Toggle = false;
 
-        [KSPField(guiName = "#SSC_BO_000002", advancedTweakable = true,
+        [KSPField(guiName = "#SSC_WaterLogged_000002", advancedTweakable = true,
             guiActive = false, guiActiveEditor = false, isPersistant = true, guiFormat = "P")]
         public double SubmergedAmount = 0;
 
-        [KSPField(guiName = "#SSC_BO_000003", advancedTweakable = true,
+        [KSPField(guiName = "#SSC_WaterLogged_000003", advancedTweakable = true,
             guiActive = false, guiActiveEditor = false, isPersistant = true, guiFormat = "N2")]
         public float RBDrag = 0;
 
@@ -58,7 +55,7 @@ namespace Waterlogged
 
             if (vessel == null) return;
 
-            VesselWaterLogged.VesselModules[vessel].OnColorizerEnabledChanged += OnColorizerEnabledChanged;
+            VesselWaterLogged.VesselModules[vessel].OnWaterLoggedEnabledChanged += OnColorizerEnabledChanged;
         }
 
         private void CreateRendererList()
@@ -130,7 +127,7 @@ namespace Waterlogged
                 }
 
 #if DEBUG
-                Profiler.BeginSample("WaterColorizerUpdate");
+                Profiler.BeginSample("WaterLoggedUpdate");
 #endif
                 var count = _renderers.Count;
                 while (count-- > 0)
