@@ -1,32 +1,33 @@
-# Project Name
-[![GitHub release](https://img.shields.io/github/release/DefiantZombie/REPOSITORYNAMEHERE.svg?style=plastic)](https://github.com/DefiantZombie/REPOSITORYNAMEHERE/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/DefiantZombie/REPOSITORYNAMEHERE.svg?style=plastic)](https://github.com/DefiantZombie/REPOSITORYNAMEHERE/issues) [![GitHub closed issues](https://img.shields.io/github/issues-closed/DefiantZombie/REPOSITORYNAMEHERE.svg?style=plastic)](https://github.com/DefiantZombie/REPOSITORYNAMEHERE/issues?q=is%3Aissue+is%3Aclosed)
+# WaterLogged
+[![GitHub release](https://img.shields.io/github/release/DefiantZombie/WaterLogged.svg?style=plastic)](https://github.com/DefiantZombie/WaterLogged/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/DefiantZombie/WaterLogged.svg?style=plastic)](https://github.com/DefiantZombie/WaterLogged/issues) [![GitHub closed issues](https://img.shields.io/github/issues-closed/DefiantZombie/WaterLogged.svg?style=plastic)](https://github.com/DefiantZombie/WaterLogged/issues?q=is%3Aissue+is%3Aclosed)
 
-TODO: Write a project description
+A KSP mod for showing how much of your craft is in the water.
 
 ## Installation
 
-TODO: Describe the installation process
+1. Extract into your GameData folder, overwrite if asked
 
 ## Usage
 
-TODO: Write usage instructions
+- Enable Advanced Tweakables (Main or escape menu settings)
+- Toggle Buoyancy Overlay by right-clicking on any part
 
-## Contributing
-
+## Contributing 
+ 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
+5. Submit a pull request to `develop` branch :D
 
 ## Credits
 
-TODO: Write credits
+- Muddr: Idea, code, testing
+- DasValdez: Always being inspiring and classy
+- Popskyy: Creativity fuel. https://popskyy.bandcamp.com/
+- Quitessa: Mod name
 
 ## License
 
-TODO: Write license
+All Rights Reserved
+Copyright (C) 2018 Squidsoft Collective
