@@ -298,7 +298,7 @@ Task("Release-Curse")
 		{
 			using(var mpfd = new MultipartFormDataContent())
 			{
-				mpfd.Add(new StringContent("JSONSTUFFHERE"), CreateCurseMetadata(gameVersions));
+				mpfd.Add(new StringContent(CreateCurseMetadata(gameVersions)), "metadata");
 				mpfd.Add(new ByteArrayContent(FileToByteArray(f.ToString())), "file");
 
 				packs.Add(FormToByteArray(mpfd).Result);
