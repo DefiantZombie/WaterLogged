@@ -1,0 +1,8 @@
+next-version: 1.0
+assembly-informational-format: '{MajorMinorPatch}-{PreReleaseTag}'
+mode: ContinuousDelivery
+branches:
+  dev(elop)?(ment)?$:
+    tag: alpha
+ignore:
+  sha: []

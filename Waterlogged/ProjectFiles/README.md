@@ -1,5 +1,4 @@
 # WaterLogged
-[![GitHub release](https://img.shields.io/github/release/DefiantZombie/WaterLogged.svg?style=plastic)](https://github.com/DefiantZombie/WaterLogged/releases/latest) [![GitHub issues](https://img.shields.io/github/issues/DefiantZombie/WaterLogged.svg?style=plastic)](https://github.com/DefiantZombie/WaterLogged/issues) [![GitHub closed issues](https://img.shields.io/github/issues-closed/DefiantZombie/WaterLogged.svg?style=plastic)](https://github.com/DefiantZombie/WaterLogged/issues?q=is%3Aissue+is%3Aclosed)
 
 A KSP mod for showing how much of your craft is in the water.
 
