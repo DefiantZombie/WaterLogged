@@ -1,8 +1,8 @@
 {
-  "NAME":"Waterlogged",
-  "URL":"http://ksp-avc.cybutek.net/version.php?id=INSERTIDHERE",
-  "DOWNLOAD":"https://github.com/DefiantZombie/Waterlogged/releases/latest",
-  "CHANGE_LOG_URL":"https://github.com/DefiantZombie/Waterlogged/releases/latest",
+  "NAME":"WaterLogged",
+  "URL":"http://ksp-avc.cybutek.net/version.php?id=576",
+  "DOWNLOAD":"https://github.com/DefiantZombie/WaterLogged/releases/latest",
+  "CHANGE_LOG_URL":"https://github.com/DefiantZombie/WaterLogged/releases/latest",
   "VERSION":
   {
     "MAJOR":0,

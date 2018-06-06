@@ -8,8 +8,8 @@
     <ProjectGuid>{88C78B70-427D-4E95-8D9C-E71D2D7314E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Waterlogged</RootNamespace>
-    <AssemblyName>Waterlogged</AssemblyName>
+    <RootNamespace>WaterLogged</RootNamespace>
+    <AssemblyName>WaterLogged</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,23 +39,26 @@
     <Reference Include="System.Xml" />
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Squidsoft.KSP.Skeleton.Assembly-CSharp.1.4.3\lib\Assembly-CSharp.dll</HintPath>
-      <Private>true</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Squidsoft.KSP.Skeleton.UnityEngine.1.4.3\lib\UnityEngine.dll</HintPath>
-      <Private>true</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Squidsoft.KSP.Skeleton.UnityEngine.UI.1.4.3\lib\UnityEngine.UI.dll</HintPath>
-      <Private>true</Private>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ModuleWaterLogged.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VesselWaterLogged.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="ProjectFiles\Waterlogged.version" />
+    <None Include="ProjectFiles\ModuleWaterLogged.cfg" />
+    <None Include="ProjectFiles\WaterLogged.version" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
