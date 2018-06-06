@@ -58,6 +58,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="ProjectFiles\Localization.cfg" />
+    <None Include="ProjectFiles\README.md" />
     <None Include="ProjectFiles\WaterLoggedMM.cfg" />
     <None Include="ProjectFiles\WaterLogged.version" />
   </ItemGroup>
