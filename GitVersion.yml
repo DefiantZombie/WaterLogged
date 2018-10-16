@@ -1,4 +1,4 @@
-next-version: 1.0
+next-version: 1.0.1
 assembly-informational-format: '{MajorMinorPatch}-{PreReleaseTag}'
 mode: ContinuousDelivery
 branches:
