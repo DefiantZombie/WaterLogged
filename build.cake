@@ -1,7 +1,7 @@
-#tool "nuget:?package=GitVersion.CommandLine"
+#tool "nuget:?package=GitVersion.CommandLine&version=3.6.5"
 #tool "nuget:?package=gitreleasemanager"
 #tool "nuget:?package=vswhere"
-#addin "nuget:?package=Cake.Git"
+#addin "nuget:?package=Cake.Git&version=0.18.0"
 #addin "nuget:?package=SharpZipLib"
 #addin "nuget:?package=Cake.Compression"
 #addin "nuget:?package=Newtonsoft.Json"
@@ -235,7 +235,7 @@ Task("Package")
 
 		// Compress
 		var kspVer = EnvironmentVariable("KSPVER");
-		ZipCompress("./artifacts/tmp", $"./artifacts/{projectName}-ksp{kspVer}-v{versionInfo.SemVer}.zip", 9);
+		ZipCompress("./artifacts/tmp", $"./artifacts/{projectName}-ksp{kspVer}-{versionInfo.SemVer}.zip", 9);
 
 		// Cleanup
 		DeleteDirectory("./artifacts/tmp", new DeleteDirectorySettings {
