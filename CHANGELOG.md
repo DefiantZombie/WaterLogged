@@ -1,0 +1,2 @@
+- Moved WaterLogged to the new CI/CD build setup. No code changes required.
+- Updated ModuleManager to 4.0.2
